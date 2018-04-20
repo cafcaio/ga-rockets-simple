@@ -17,8 +17,8 @@ function setup() {
   createCanvas(500, 500);
   lifespan = 200;
   matingPoolSize = 20000;
-  numberOfRockets = 75;
-  mutationRate = 0.03;
+  numberOfRockets = 30;
+  mutationRate = 0.02;
   maxForce = 0.25;
   population = new Population(numberOfRockets, lifespan);
   obstaclePosition = createVector(0.5 * width, 0.5 * height);
