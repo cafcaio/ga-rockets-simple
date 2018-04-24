@@ -15,9 +15,9 @@ let countP;
 function setup() {
 
   createCanvas(500, 500);
-  lifespan = 200;
+  lifespan = 225;
   matingPoolSize = 20000;
-  numberOfRockets = 30;
+  numberOfRockets = 40;
   mutationRate = 0.02;
   maxForce = 0.25;
   population = new Population(numberOfRockets, lifespan);
