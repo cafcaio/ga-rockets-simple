@@ -49,10 +49,10 @@ class Rocket {
     let d = dist(this.position.x, this.position.y, target.x, target.y);
     this.fitness = 1 / d ** 2;
     if (this.finished) {
-      this.fitness *= 5;
+      this.fitness *= 10;
     }
     if (this.crashed) {
-      this.fitness /= 5;
+      this.fitness /= 10;
     }
   }
 
