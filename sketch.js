@@ -22,8 +22,8 @@ function setup() {
   maxForce = 0.25;
   population = new Population(numberOfRockets, lifespan);
   obstaclePosition = createVector(0.5 * width, 0.5 * height);
-  obstacle = new Obstacle(obstaclePosition, 200, 15);
-  target = createVector(0.5 * width, 0.15 * height);
+  obstacle = new Obstacle(obstaclePosition, 150, 15);
+  target = createVector(0.8 * width, 0.15 * height);
   genP = createP();
   countP = createP();
 
